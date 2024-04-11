@@ -146,13 +146,11 @@ h3 {
     color: #5cdbef; /* Change to your desired hover color */
 }
 
-
 a {
     font-family: 'Montserrat', sans-serif;
     color: #11999e;
     margin: 10px 20px;
 }
-
 
 /* Responsive styles */
 @media only screen and (max-width: 768px) {
@@ -162,6 +160,9 @@ a {
     .skill-row {
         width: 90%;
     }
+    .profile h3 {
+        margin-top: 20px;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -170,5 +171,8 @@ a {
     }
     .contact-me {
         width: 80%;
+    }
+    .profile h3 {
+        margin-top: 20px;
     }
 }
