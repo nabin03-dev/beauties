@@ -135,8 +135,40 @@ h3 {
     padding: 50px 0 20px;
 }
 
+.footer-link {
+    color: #fff;
+    font-size: 24px;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+    color: #5cdbef; /* Change to your desired hover color */
+}
+
+
 a {
     font-family: 'Montserrat', sans-serif;
-    s color: #11999e;
+    color: #11999e;
     margin: 10px 20px;
+}
+
+
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+    .top-cloud, .bottom-cloud {
+        display: none;
+    }
+    .skill-row {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .btn {
+        font-size: 16px;
+    }
+    .contact-me {
+        width: 80%;
+    }
 }
